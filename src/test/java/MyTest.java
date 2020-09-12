@@ -2,7 +2,7 @@ import com.microsoft.demo.Demo;
 import org.junit.Test;
 
 public class MyTest {
-    @Test
+    //@Test
     public void test_method_1() {
         Demo d = new Demo();
         d.DoSomething(true);
@@ -10,5 +10,7 @@ public class MyTest {
 
     @Test
     public void test_method_2() {
+        Demo d = new Demo();
+        d.DoSomething2(false);
     }
 }
