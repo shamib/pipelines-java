@@ -19,6 +19,8 @@ public class Demo {
         if (flag) {
         	testString = "True String";
         }
+        int i =0;
+        i=+4;
         System.out.println("Test String is : "+testString.toString());
         System.out.println("I am not covered2");
     }
