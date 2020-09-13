@@ -11,7 +11,7 @@ public class Demo {
     }
 
     public void DoSomething2(boolean flag){
-    	String testString = null;
+    	String testString = new String();
         if(flag){
             System.out.println("I am covered");
             return;
