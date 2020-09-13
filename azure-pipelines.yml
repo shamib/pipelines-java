@@ -30,6 +30,7 @@ steps:
       # sonar.exclusions=**/*.bin
       sonar.projectName=TestProject
       sonar.projectKey=TestProject
+- task: SonarQubeAnalyze@4
 - task: SonarQubePublish@4
   inputs:
     pollingTimeoutSec: '300'
